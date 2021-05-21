@@ -17,11 +17,15 @@ Example:
 2. Under the **Tools** tab, open up the **Script editor**. You can Title the project anything you want.
 3. Copy the code in the `Code.js` into the `Code.gs` file in the **Script editor**.
 4. Run/Execute the function `createTimeTriggerEveryDay`. This will create a Time-based Trigger that will run the `readBirthday` function everyday at 5 AM (Note: You can also manually create a Time-based Trigger).
+![](https://github.com/TomPrete/google-sheets-birthday-reminder-script/blob/main/images/trigger.png)
 
 5. This script should run daily at 5 AM and email you if it's someones birthday!
+
+![](https://github.com/TomPrete/google-sheets-birthday-reminder-script/blob/main/images/email.png)
 
 ## Additional Resources:
 * [Googel Scripts Overview](https://developers.google.com/apps-script/overview)
 * [Create Triggers Manually or Programmatically](https://developers.google.com/apps-script/guides/triggers/installable)
+* [Sending Emails from Google Spreadsheets](https://developers.google.com/apps-script/articles/sending_emails)
 
 
