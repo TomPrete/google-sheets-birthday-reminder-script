@@ -3,7 +3,7 @@
 ## Description
  This script automatically sends you an email reminding you of someones birthday.
 
- The script is used in Google Sheets' **Script editor**, which is located under the **Tools** in a Google Sheet.
+ The script is written using Google Sheets' **Script editor**, which is located under the **Tools** in a Google Sheet.
 
 ## Instructions
 1. In your Google Sheet make a header with 4 columns named `Name`, `Email`, `Birthday`, & `Phone Number` (we aren't using the Email or Phone number at this time). Also, the Birthday column values should be a Date type and formatted as  `MM-dd`. You can Title the Google Sheet anything you want.
