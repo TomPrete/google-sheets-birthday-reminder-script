@@ -9,7 +9,6 @@ function createTimeTriggerEveryDay() {
 // Get Birthday and Person from Sheet
 function readBirthday() {
   let columnRange = SpreadsheetApp.getActiveSheet().getRange('C2:C50').getValues();
-  Logger.log("here")
   for (let i = 0; i < columnRange.length; i++) {
     if (columnRange[i][0] !== '') {
       let birthDay = columnRange[i][0];
