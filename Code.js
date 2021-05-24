@@ -17,7 +17,7 @@ function readBirthday() {
       let formattedCurrentDate = Utilities.formatDate(birthDay, 'America/Chicago', 'MM-dd');
       if (formattedCurrentDate == formattedBirthday) {
         let friend = SpreadsheetApp.getActiveSheet().getRange(`A${i + 2}`).getValue();
-        sendEmail(friend, formattedBirthday)
+        sendEmail(friend, formattedBirthday);
       }
     }
   }
@@ -25,7 +25,7 @@ function readBirthday() {
 
 // Send myself email reminder
 function sendEmail(friend) {
-  let subject = `BIRTHDAY REMINDER: ${friend}!`
+  let subject = `BIRTHDAY REMINDER: ${friend}!`;
   let message = `Today is ${friend}'s birthday!`;
   MailApp.sendEmail(myEmail, subject, message);
 }
