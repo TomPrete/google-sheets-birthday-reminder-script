@@ -1,4 +1,4 @@
-// Your personal gmail address
+// Your personal gmail address you wish to send the birthday reminder email to
 let myEmail = 'ruthie.cohen@gmail.com'
 
 // Create Trigger that executes readBirthday function everyday at 5 AM
